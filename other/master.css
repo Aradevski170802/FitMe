@@ -5,14 +5,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: gray;
+
+}
+
 .content{
   text-align: left;
   background-color: rgba(150,155,160,0.8);
   padding: 2em;
 }
+
 .right {
   float: right;
 }
+
 .content-button{
   background-color: rgba(204,255,51,0.6);
   width: 8em;
@@ -25,6 +33,7 @@
   box-shadow: -0.2em 0.4em rgba(10,10,10,.4);
   transition: .3s;
 }
+
 .content-button:hover {
   background-color: rgba(10,10,10,.4);
   color: rgb(240,240,240);
@@ -88,10 +97,13 @@ footer{
   display: flex;
   justify-content: center;
   background-color: rgba(0,0,0,.5);
+  height:auto;
 }
+
 ul{
   list-style: none;
 }
+
 li{
   padding: 2rem;
 
