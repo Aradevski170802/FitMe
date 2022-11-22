@@ -1,0 +1,58 @@
+.Parent {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}
+
+.Parent-One {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 10em;
+  height: 30em;
+  background-color: black;
+}
+
+.Child-One {
+  width: 15em;
+  height: 5em;
+  background-color: blue;
+}
+
+.GrandChild-One{
+  width: 10em;
+  height: 10em;
+  padding-top: 15em;
+  background-color: white;
+}
+
+.Parent-Two{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30em;
+  height: 30em;
+  background-color: red;
+}
+
+.Child-Two{
+  margin-top: -1em;
+  width: 30em;
+  height: 15em;
+  background-color: gray;
+}
+
+.List-Two  {
+  height: 2em;
+  background-color: purple;
+  list-style: circle;
+}
+
+.GrandChild-Two{
+  width: 30em;
+  height: 10em;
+  background-color: blue;
+}

@@ -78,6 +78,9 @@ body{
 }
 
 .picture{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 40rem;
   height: 30rem;
   background-color: rgba(90,90,90,.8);
@@ -119,7 +122,6 @@ li{
   font-family: 'Courier New', monospace;
   font-size: 1.4em;
   font-weight: bold;
-
 }
 
 .left-footer{
