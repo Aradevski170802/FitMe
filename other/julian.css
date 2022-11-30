@@ -4,29 +4,33 @@
   justify-content:space-around;
   height: 100%;
   width: 100%;
-  background-color: green;
+  background-color: white;
 }
 
 .Parent-One {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 10em;
+  width: 0em;
   height: 30em;
-  background-color: black;
+  background-color: white;
 }
 
 .Child-One {
   width: 15em;
   height: 5em;
-  background-color: blue;
+  background-color: white;
 }
 
+.AMH {
+  background-color: #E2D2D2;
+  box-shadow: 2px 4px 8px black;
+}
 .GrandChild-One{
   width: 10em;
   height: 10em;
   padding-top: 15em;
-  background-color: white;
+  background-color: #E2D2D2;
 }
 
 .Parent-Two{
@@ -34,8 +38,8 @@
   flex-direction: column;
   justify-content: space-around;
   width: 30em;
-  height: 30em;
-  background-color: red;
+  height: 30em
+  background-color: #E2D2D2;
 }
 
 .Child-Two{
@@ -45,14 +49,42 @@
   background-color: gray;
 }
 
-.List-Two  {
-  height: 2em;
-  background-color: purple;
-  list-style: circle;
+
+.UnorderList-Two {
+  background: white	;
+  padding: 10px;
+  box-shadow: 2px 4px 6px black;
+         }
+
+.UnorderList-Two .List-Two {
+  background: #E2D2D2;
+  color: black;
+
+  margin-left: 35px;
+  box-shadow: 2px 4px 3px black;
+
 }
 
-.GrandChild-Two{
+.List-Two  {
+  height: 3em;
+  background-color: purple;
+  list-style: circle ;
+  padding: 20px;
+  list-style: none;
+}
+
+/*
+.UnorderList-Two .List-Two-One {
+  background: blue;
+  color: black;
+
+  margin-left: 35px;
+  box-shadow: 2px 4px 3px black;
+} */
+
+
+.GrandChild-Two {
   width: 30em;
   height: 10em;
-  background-color: blue;
+  background-color: white;
 }
