@@ -8,8 +8,10 @@
 }
 
 body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: gray;
-
 }
 
 .content{
@@ -98,10 +100,9 @@ body{
 }
 
 footer{
-  display: flex;
-  justify-content: center;
+  columns: 2;
+  margin-top: auto;
   background-color: rgba(0,0,0,.5);
-  height:auto;
 }
 
 ul{
