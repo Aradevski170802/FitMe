@@ -1,0 +1,59 @@
+body{
+  background-color: gray;
+}
+.LeftParent{
+  background-color: red;
+  float: left;
+  height: 55em;
+  width: 32em;
+  margin-left: 5em;
+  margin-right: 10px;
+
+}
+
+.RightParent{
+  background-color: blue;
+  /* float: right; */
+  height: 55em;
+  width: 32em;
+  margin-left:37em;
+}
+
+.ChestChild{
+  background-color: yellow;
+  padding: 1em;
+  margin-top: 4px;
+}
+
+.MusclesExercise{
+  background-color: aqua;
+  margin-top: 1px
+}
+
+.Message{
+  background-color: purple;
+}
+
+.InfoFrame{
+  border: 2px solid white;
+  background-color: black;
+  width: 30em;
+  margin-left: 0.3em;
+  height: 24.7em;
+}
+
+.ExerciseFrame{
+  background-color: white;
+}
+
+
+.ExerciseList{
+  background-color: white;
+  height: 25em;
+}
+
+.InfoMuscle{
+  background-color: white;
+  margin-top: 1em;
+  height: 25em;
+}
