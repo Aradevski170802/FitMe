@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>FitMe</title>
-    <link rel="stylesheet" href="other/master.css">
+  	<script src="../other/bmiCalculator.js"></script>
+    <link rel="stylesheet" href="../other/master.css">
+    <link rel="stylesheet" href="../other/calculate.css">
   </head>
+
   <body>
     <header>
       <nav>
@@ -20,14 +21,27 @@
         </div>
       </nav>
     </header>
-    <div class="main">
-      <div class="picture">
-        <img  src="images/mainPagePic.jpg" alt="GymGuy">
-      </div>
-      <div class="text">
-        <p>Fsahfwiofhiqw</p>
+    <div class="bodyCalcucator">
+      <div class="calculateBMI">
+        <h1>BMI Calculator</h1>
+
+        <!-- Option for providing height
+          and weight to the user-->
+        <p>Height (in cm)</p>
+
+        <input type="text" id="height">
+
+        <p>Weight (in kg)</p>
+
+        <input type="text" id="weight">
+
+        <button id="btn" onclick="calculateBMI()">Calculate</button>
+
+        <div id="result">
+        </div>
       </div>
     </div>
+
     <footer>
       <ul class="left-footer">
         <li>
@@ -53,4 +67,5 @@
       </ul>
     </footer>
   </body>
+
 </html>

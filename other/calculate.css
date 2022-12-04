@@ -1,0 +1,18 @@
+.bodyCalcucator{
+  background: yellow;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculateBMI{
+  width: 50%;
+  height: 20em;
+  margin: 3vh;
+  padding: 5em;
+  background: blue;
+  color: white;
+}
