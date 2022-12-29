@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    word-wrap: break-word;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttoncbm {
+    margin: 1em;
+    width: 15em;
+    padding: 0.7em 0.3em;
+    border-radius: 1rem;
+    font-size: 1em;
+    font-weight: bold;
+    border-color:rgb(182, 106, 14);
+    box-shadow: rgb(144, 143, 143);
+    transition: .3s;
+}
+
+.buttoncbm:hover {
+    background-color: rgba(225, 225, 225, 0.4);
+    color: rgb(240,240,240);
+    box-shadow: -0.1em 0.4em rgba(31, 103, 180, 0.6);
+    transition: .3s;
+    cursor: pointer;
+}
