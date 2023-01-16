@@ -23,22 +23,28 @@
     </header>
     <div class="bodyCalcucator">
       <div class="calculateBMI">
-        <h1>BMI Calculator</h1>
-
-        <!-- Option for providing height
-          and weight to the user-->
-        <p>Height (in cm)</p>
-
-        <input type="text" id="height">
-
-        <p>Weight (in kg)</p>
-
-        <input type="text" id="weight">
-
-        <button id="btn" onclick="calculateBMI()">Calculate</button>
-
-        <div id="result">
+        
+        <div class="input-col">
+          <!-- Option for providing height and weight to the user -->
+          <h2>Body Mass Index Calculator (BMI)</h2>
+          <input type="text" class="form_input" id="height" placeholder="Height in cm">
+          <label class="form_label">Height</label>
+  
+          <input type="text" class="form_input" id="weight" placeholder="Weight in kg">
+          <label class="form_label">Weight</label>
+          <button id="btn" onclick="calculateBMI()">Calculate</button> 
         </div>
+        
+        <div class="result-col">
+          <div id="result"></div>
+        </div>
+      </div>
+      <div class="info">
+        <p>The body mass index (BMI) calculator is a tool that helps determine an individual's body fat based on their weight and height. 
+          The BMI is calculated by dividing an individual's weight in kilograms by their height in meters squared (kg/m²). 
+          A person with a BMI between 18.5 and 24.9 is considered to be at a healthy weight, while a BMI below 18.5 is considered underweight and a BMI above 25 is considered overweight. 
+          However, it's important to note that BMI is not a perfect measure of body fat, as it doesn't take into account factors such as muscle mass or overall body composition. 
+          Therefore, it's important to use other methods, such as skinfold thickness measurements or bioelectrical impedance analysis, to determine body fat percentage.</p>
       </div>
     </div>
 

@@ -8,15 +8,13 @@
 }
 
 body{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: gray;
+  position: absolute;
+  z-index: -1;
 }
 
 .content{
   text-align: left;
-  background-color: rgba(150,155,160,0.8);
+  background-color:rgba(18, 18, 18, 0.499);;
   padding: 2em;
 }
 
@@ -25,7 +23,8 @@ body{
 }
 
 .content-button{
-  background-color: rgba(204,255,51,0.6);
+  background-color: #2d0d07c4;
+  color:  white;
   width: 8em;
   padding: 0.8em 1em;
   margin-left: 1em;
@@ -33,14 +32,14 @@ body{
   border-radius: 0.5rem;
   font-size: 1em;
   font-weight: bold;
-  box-shadow: -0.2em 0.4em rgba(10,10,10,.4);
+  box-shadow: -0.2em 0.4em rgba(28, 2, 3, 0.593);
   transition: .3s;
 }
 
 .content-button:hover {
   background-color: rgba(10,10,10,.4);
   color: rgb(240,240,240);
-  box-shadow: -0.2em 0.4em rgba(204,255,51,.6);
+  box-shadow: -0.2em 0.4em rgba(10,10,10,.4);
   margin: 0em 1.4em;
   transition: .3s;
 }
@@ -71,37 +70,12 @@ body{
   margin-top:100em;
 }
 
-.main{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.background img{
   width: 100%;
-  height: 100%;
-  background-color: rgba(120,120,120,.8);
-}
-
-.picture{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 40rem;
-  height: 30rem;
-  background-color: rgba(90,90,90,.8);
-  margin-left: 15em;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
-.text{
-  width: 30rem;
-  height: 20rem;
-  margin-left: 25rem;
-  background-color: rgba(200,255,70,0.5);
 }
 
 footer{
   columns: 2;
-  margin-top: auto;
   background-color: rgba(0,0,0,.5);
 }
 
