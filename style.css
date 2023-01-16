@@ -1,13 +1,13 @@
-:root {
-    --primary : linear-gradient(to bottom right, #003a57, #2e4756);
-    --secondary : gold;
-    --text : #fff;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --primary : linear-gradient(to bottom right, #003a57, #2e4756);
+    --secondary : gold;
+    --text : #fff;
 }
 
 body {
@@ -117,10 +117,6 @@ body {
     filter: invert(100%) sepia(100%) saturate(2000%) hue-rotate(360deg);
 }
 
-.video p {
-   margin-left: 2.5rem;
-}
-
 .video h3 {
     width: 23rem;
     white-space: nowrap;
@@ -129,4 +125,8 @@ body {
 
     font: 100 1rem sans-serif;
     padding: 0 .5rem;
+}
+
+.video p {
+   margin-left: 2.5rem;
 }
